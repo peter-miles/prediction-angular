@@ -1,0 +1,16 @@
+/* SEARCH BAR */
+.search button {
+  background-color: gray;
+  border-color: gray;
+}
+
+.search {
+  width: 30%;
+  margin: auto;
+}
+
+/* VIEW PLAYERS TABLE */
+.table {
+  width: 75%;
+  margin: auto;
+}
