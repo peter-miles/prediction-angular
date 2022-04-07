@@ -9,13 +9,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { CreateTeamComponent } from './create-team/create-team.component';
 import { ViewTeamComponent } from './view-team/view-team.component';
 import { ViewPlayerComponent } from './view-player/view-player.component';
+import { TableSortableComponent } from './table-sortable/table-sortable.component';
+import { SortableHeaderDirective } from './table-sortable/sortable-header.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateTeamComponent,
     ViewTeamComponent,
-    ViewPlayerComponent
+    ViewPlayerComponent,
+    TableSortableComponent,
+    SortableHeaderDirective
   ],
   imports: [
     BrowserModule,
